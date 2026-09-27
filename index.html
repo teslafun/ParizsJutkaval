@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Párizs Jutkával</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#">
+    <span class="brand-icon">▶</span>
+    <span data-i18n="brand">Párizs Jutkával</span>
+  </a>
+
+  <nav class="desktop-nav">
+    <a class="active" href="#videos" data-i18n="nav_videos">Videók</a>
+    <a href="#about" data-i18n="nav_about">Rólunk</a>
+    <a href="#contact" data-i18n="nav_contact">Kapcsolat</a>
+  </nav>
+
+  <div class="header-actions">
+    <div class="languages">
+      <button data-lang="hu" class="lang active">HU</button>
+      <button data-lang="en" class="lang">EN</button>
+      <button data-lang="fr" class="lang">FR</button>
+    </div>
+    <button class="menu-button" aria-label="Menü">☰</button>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow" data-i18n="eyebrow">ÜDVÖZLÜNK</p>
+      <h1 data-i18n="hero_title">Fedezd fel<br>videóinkat</h1>
+      <p class="hero-text" data-i18n="hero_text">
+        Inspiráló történetek, utazások, élmények és sok más. Nézd meg legújabb videóinkat!
+      </p>
+      <a class="primary-button" href="#videos">
+        <span data-i18n="hero_button">Videók megtekintése</span> <span>›</span>
+      </a>
+    </div>
+
+    <article class="featured-card demo-video">
+      <div class="featured-image">
+        <span class="badge" data-i18n="featured">Kiemelt videó</span>
+        <button class="play-button" aria-label="Play">▶</button>
+      </div>
+      <div class="featured-info">
+        <h2 data-i18n="featured_title">Csodálatos helyek Párizsban</h2>
+        <p data-i18n="featured_text">Fedezd fel velünk Párizs különleges helyeit!</p>
+        <small>Facebook video</small>
+      </div>
+    </article>
+  </section>
+
+  <section class="videos-section" id="videos">
+    <div class="section-heading">
+      <h2><span></span><span data-i18n="latest">Legújabb videók</span></h2>
+      <a href="#videos" data-i18n="all_videos">Összes videó ›</a>
+    </div>
+
+    <div class="video-row">
+      <article class="video-card">
+        <div class="thumb thumb-1"><button class="small-play">▶</button><span class="duration">2:34</span></div>
+        <div class="card-body">
+          <h3 data-i18n="v1_title">Párizs rejtett kincsei</h3>
+          <p data-i18n="v1_text">Különleges helyek a turistákon túl.</p>
+          <div class="meta"><span>f</span> Facebook video</div>
+        </div>
+      </article>
+
+      <article class="video-card">
+        <div class="thumb thumb-2"><button class="small-play">▶</button><span class="duration">3:12</span></div>
+        <div class="card-body">
+          <h3 data-i18n="v2_title">Egy nap Párizsban</h3>
+          <p data-i18n="v2_text">Látnivalók, hangulatok és tippek.</p>
+          <div class="meta"><span>f</span> Facebook video</div>
+        </div>
+      </article>
+
+      <article class="video-card">
+        <div class="thumb thumb-3"><button class="small-play">▶</button><span class="duration">1:58</span></div>
+        <div class="card-body">
+          <h3 data-i18n="v3_title">Montmartre történetei</h3>
+          <p data-i18n="v3_text">Séta Párizs egyik legizgalmasabb negyedében.</p>
+          <div class="meta"><span>f</span> Facebook video</div>
+        </div>
+      </article>
+
+      <article class="video-card">
+        <div class="thumb thumb-4"><button class="small-play">▶</button><span class="duration">2:46</span></div>
+        <div class="card-body">
+          <h3 data-i18n="v4_title">Párizsi gyöngyszemek</h3>
+          <p data-i18n="v4_text">Kevésbé ismert, különleges helyek.</p>
+          <div class="meta"><span>f</span> Facebook video</div>
+        </div>
+      </article>
+
+      <article class="video-card">
+        <div class="thumb thumb-5"><button class="small-play">▶</button><span class="duration">3:21</span></div>
+        <div class="card-body">
+          <h3 data-i18n="v5_title">A város másik arca</h3>
+          <p data-i18n="v5_text">Párizs olyan oldalai, amelyeket érdemes felfedezni.</p>
+          <div class="meta"><span>f</span> Facebook video</div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="simple-section" id="about">
+    <h2 data-i18n="about_title">Rólunk</h2>
+    <p data-i18n="about_text">Párizs történetei, helyei és élményei Jutka szemével.</p>
+  </section>
+
+  <section class="simple-section" id="contact">
+    <h2 data-i18n="contact_title">Kapcsolat</h2>
+    <p data-i18n="contact_text">Hamarosan itt találod a kapcsolatfelvételhez szükséges információkat.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-brand">
+    <div class="brand"><span class="brand-icon">▶</span><span data-i18n="brand">Párizs Jutkával</span></div>
+    <p data-i18n="footer_text">Inspiráló történetek, utazások, élmények és sok más.</p>
+  </div>
+  <div>
+    <h4 data-i18n="footer_nav">Navigáció</h4>
+    <a href="#videos" data-i18n="nav_videos">Videók</a>
+    <a href="#about" data-i18n="nav_about">Rólunk</a>
+    <a href="#contact" data-i18n="nav_contact">Kapcsolat</a>
+  </div>
+  <div>
+    <h4 data-i18n="footer_info">Információ</h4>
+    <a href="#" data-i18n="privacy">Adatvédelem</a>
+    <a href="#" data-i18n="terms">Felhasználási feltételek</a>
+  </div>
+  <div>
+    <h4 data-i18n="language">Nyelv</h4>
+    <div class="footer-langs">
+      <button data-lang="hu">HU</button><button data-lang="en">EN</button><button data-lang="fr">FR</button>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
