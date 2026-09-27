@@ -184,7 +184,7 @@
   background: #000;
 }
 
-.video-card.landscape .youtube-player {
+.youtube-card.landscape .youtube-player {
   aspect-ratio: 16 / 9;
 }
 
@@ -228,7 +228,7 @@
   background: #000;
 }
 
-.video-card.landscape .youtube-player {
+.youtube-card.landscape .youtube-player {
   aspect-ratio: 16 / 9;
 }
 
@@ -315,73 +315,4 @@
     font-size: 17px;
   }
 
-}
-
-/* Landscape YouTube cards: wider desktop layout */
-.video-card.landscape { flex-basis: 320px; }
-
-
-/* =========================================================
-   FINAL YOUTUBE VIDEO LAYOUT
-   ========================================================= */
-
-.youtube-card {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  background: #000;
-  border-radius: 20px 20px 0 0;
-}
-
-.youtube-player {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 9 / 16;
-  overflow: hidden;
-  background: #000;
-}
-
-.video-card.landscape .youtube-player {
-  aspect-ratio: 16 / 9;
-}
-
-.youtube-player iframe {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-  display: block;
-}
-
-/* Desktop: landscape videos need more horizontal space */
-@media (min-width: 761px) {
-  .video-card.landscape {
-    flex-basis: 320px;
-  }
-}
-
-/* Mobile: cards become normal vertical blocks */
-@media (max-width: 760px) {
-  .video-row {
-    display: block;
-    overflow: visible;
-  }
-
-  .video-card,
-  .video-card.landscape {
-    width: 100%;
-    flex-basis: auto;
-    display: block;
-    margin-bottom: 16px;
-  }
-
-  .video-card .youtube-card {
-    width: 100%;
-  }
-
-  .video-card .card-body {
-    width: 100%;
-    box-sizing: border-box;
-  }
 }

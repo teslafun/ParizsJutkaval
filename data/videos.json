@@ -25,7 +25,7 @@
       }
     },
     {
-      "id": "culture",
+      "id": "culture_history",
       "name": {
         "hu": "Kultúra & történelem",
         "en": "Culture & history",
@@ -57,7 +57,7 @@
       }
     },
     {
-      "id": "jutka",
+      "id": "jutka_tells",
       "name": {
         "hu": "Jutka mesél",
         "en": "Jutka tells",
@@ -67,7 +67,7 @@
   ],
   "series": [
     {
-      "id": "giverny-monet",
+      "id": "monet_giverny",
       "title": {
         "hu": "Monet és Giverny",
         "en": "Monet and Giverny",
@@ -82,7 +82,7 @@
       "title": {
         "hu": "Monet és Giverny – 1. rész",
         "en": "Monet and Giverny – Part 1",
-        "fr": "Monet et Giverny – Partie 1"
+        "fr": "Monet et Giverny – Épisode 1"
       },
       "description": {
         "hu": "",
@@ -90,22 +90,24 @@
         "fr": ""
       },
       "categories": [
+        "paris",
         "france",
+        "culture_history",
         "art",
-        "trips"
+        "jutka_tells"
       ],
-      "series_id": "giverny-monet",
+      "series_id": "monet_giverny",
       "episode": 1,
       "orientation": "landscape",
       "facebook_url": "https://www.facebook.com/reel/2095173488099029",
-      "youtube_id": "EwLmPAW4Ux8"
+      "youtube_id": "EBEFYElmflM"
     },
     {
       "id": "002",
       "title": {
         "hu": "Monet és Giverny – 2. rész",
         "en": "Monet and Giverny – Part 2",
-        "fr": "Monet et Giverny – Partie 2"
+        "fr": "Monet et Giverny – Épisode 2"
       },
       "description": {
         "hu": "",
@@ -113,11 +115,13 @@
         "fr": ""
       },
       "categories": [
+        "paris",
         "france",
+        "culture_history",
         "art",
-        "trips"
+        "jutka_tells"
       ],
-      "series_id": "giverny-monet",
+      "series_id": "monet_giverny",
       "episode": 2,
       "orientation": "landscape",
       "facebook_url": "https://www.facebook.com/reel/2137249670177772",
@@ -128,7 +132,7 @@
       "title": {
         "hu": "Monet és Giverny – 3. rész",
         "en": "Monet and Giverny – Part 3",
-        "fr": "Monet et Giverny – Partie 3"
+        "fr": "Monet et Giverny – Épisode 3"
       },
       "description": {
         "hu": "",
@@ -136,22 +140,24 @@
         "fr": ""
       },
       "categories": [
+        "paris",
         "france",
+        "culture_history",
         "art",
-        "trips"
+        "jutka_tells"
       ],
-      "series_id": "giverny-monet",
+      "series_id": "monet_giverny",
       "episode": 3,
       "orientation": "landscape",
       "facebook_url": "https://www.facebook.com/reel/1324417502952644",
-      "youtube_id": "rVNakLfaimw"
+      "youtube_id": "wxEMsOFPxNc"
     },
     {
       "id": "004",
       "title": {
         "hu": "Monet és Giverny – 4. rész",
         "en": "Monet and Giverny – Part 4",
-        "fr": "Monet et Giverny – Partie 4"
+        "fr": "Monet et Giverny – Épisode 4"
       },
       "description": {
         "hu": "",
@@ -159,22 +165,24 @@
         "fr": ""
       },
       "categories": [
+        "paris",
         "france",
+        "culture_history",
         "art",
-        "trips"
+        "jutka_tells"
       ],
-      "series_id": "giverny-monet",
+      "series_id": "monet_giverny",
       "episode": 4,
       "orientation": "landscape",
       "facebook_url": "https://www.facebook.com/reel/1916934712340936",
-      "youtube_id": "Az9TxHtYOO8"
+      "youtube_id": "tksZDA1p2t8"
     },
     {
       "id": "005",
       "title": {
         "hu": "Monet és Giverny – 5. rész",
         "en": "Monet and Giverny – Part 5",
-        "fr": "Monet et Giverny – Partie 5"
+        "fr": "Monet et Giverny – Épisode 5"
       },
       "description": {
         "hu": "",
@@ -182,15 +190,17 @@
         "fr": ""
       },
       "categories": [
+        "paris",
         "france",
+        "culture_history",
         "art",
-        "trips"
+        "jutka_tells"
       ],
-      "series_id": "giverny-monet",
+      "series_id": "monet_giverny",
       "episode": 5,
-      "orientation": "landscape",
+      "orientation": "portrait",
       "facebook_url": "https://www.facebook.com/reel/36049970434647802",
-      "youtube_id": "rjWx2WNXFF4"
+      "youtube_id": "K5joBWKZ8ho"
     },
     {
       "id": "006",
@@ -211,7 +221,7 @@
       "episode": null,
       "orientation": "landscape",
       "facebook_url": "https://www.facebook.com/reel/1502104838040821",
-      "youtube_id": "YKeIYT8ZT6k"
+      "youtube_id": "x7I2OX-JCYk"
     },
     {
       "id": "007",
@@ -227,13 +237,14 @@
       },
       "categories": [
         "paris",
-        "culture"
+        "france",
+        "culture_history"
       ],
       "series_id": null,
       "episode": null,
       "orientation": "landscape",
       "facebook_url": "https://www.facebook.com/reel/980800928251857",
-      "youtube_id": "wvtoJ7Dyj1A"
+      "youtube_id": "bopzoe2HUPU"
     },
     {
       "id": "008",
@@ -249,8 +260,7 @@
       },
       "categories": [
         "paris",
-        "culture",
-        "art"
+        "france"
       ],
       "series_id": null,
       "episode": null,
