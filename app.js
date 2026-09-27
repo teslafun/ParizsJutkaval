@@ -492,10 +492,7 @@ function renderVideos() {
           )
         : null;
 
-    const episode =
-      video.episode && series
-        ? `<span class="episode">${video.episode}/${series.episodes}</span>`
-        : "";
+    const episode = "";
 
     const seriesTitle =
       series
