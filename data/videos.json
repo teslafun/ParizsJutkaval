@@ -85,9 +85,9 @@
         "fr": "Monet et Giverny – Partie 1"
       },
       "description": {
-        "hu": "Próbaadat – a végleges szöveget később adjuk meg.",
-        "en": "Demo data – final text will be added later.",
-        "fr": "Données de démonstration – le texte final sera ajouté plus tard."
+        "hu": "",
+        "en": "",
+        "fr": ""
       },
       "categories": [
         "france",
@@ -97,7 +97,7 @@
       "series_id": "giverny-monet",
       "episode": 1,
       "orientation": "portrait",
-      "facebook_url": ""
+      "facebook_url": "https://www.facebook.com/reel/2095173488099029"
     },
     {
       "id": "002",
@@ -107,9 +107,9 @@
         "fr": "Monet et Giverny – Partie 2"
       },
       "description": {
-        "hu": "Próbaadat – a végleges szöveget később adjuk meg.",
-        "en": "Demo data – final text will be added later.",
-        "fr": "Données de démonstration – le texte final sera ajouté plus tard."
+        "hu": "",
+        "en": "",
+        "fr": ""
       },
       "categories": [
         "france",
@@ -119,132 +119,136 @@
       "series_id": "giverny-monet",
       "episode": 2,
       "orientation": "portrait",
-      "facebook_url": ""
+      "facebook_url": "https://www.facebook.com/reel/2137249670177772"
     },
     {
       "id": "003",
       "title": {
-        "hu": "Eiffel-torony",
-        "en": "The Eiffel Tower",
-        "fr": "La tour Eiffel"
+        "hu": "Monet és Giverny – 3. rész",
+        "en": "Monet and Giverny – Part 3",
+        "fr": "Monet et Giverny – Partie 3"
       },
       "description": {
-        "hu": "Próbaadat – később a valódi videó adatai kerülnek ide.",
-        "en": "Demo data – real video data will be added later.",
-        "fr": "Données de démonstration – les vraies données seront ajoutées plus tard."
+        "hu": "",
+        "en": "",
+        "fr": ""
       },
       "categories": [
-        "paris",
-        "culture"
+        "france",
+        "art",
+        "trips"
       ],
-      "series_id": null,
-      "episode": null,
+      "series_id": "giverny-monet",
+      "episode": 3,
       "orientation": "portrait",
-      "facebook_url": ""
+      "facebook_url": "https://www.facebook.com/reel/1324417502952644"
     },
     {
       "id": "004",
       "title": {
-        "hu": "Notre-Dame",
-        "en": "Notre-Dame",
-        "fr": "Notre-Dame"
+        "hu": "Monet és Giverny – 4. rész",
+        "en": "Monet and Giverny – Part 4",
+        "fr": "Monet et Giverny – Partie 4"
       },
       "description": {
-        "hu": "Próbaadat – később a valódi videó adatai kerülnek ide.",
-        "en": "Demo data – real video data will be added later.",
-        "fr": "Données de démonstration – les vraies données seront ajoutées plus tard."
+        "hu": "",
+        "en": "",
+        "fr": ""
       },
       "categories": [
-        "paris",
-        "culture"
+        "france",
+        "art",
+        "trips"
       ],
-      "series_id": null,
-      "episode": null,
+      "series_id": "giverny-monet",
+      "episode": 4,
       "orientation": "portrait",
-      "facebook_url": ""
+      "facebook_url": "https://www.facebook.com/reel/1916934712340936"
     },
     {
       "id": "005",
       "title": {
-        "hu": "Montmartre",
-        "en": "Montmartre",
-        "fr": "Montmartre"
+        "hu": "Monet és Giverny – 5. rész",
+        "en": "Monet and Giverny – Part 5",
+        "fr": "Monet et Giverny – Partie 5"
       },
       "description": {
-        "hu": "Próbaadat – később a valódi videó adatai kerülnek ide.",
-        "en": "Demo data – real video data will be added later.",
-        "fr": "Données de démonstration – les vraies données seront ajoutées plus tard."
+        "hu": "",
+        "en": "",
+        "fr": ""
       },
       "categories": [
-        "paris",
+        "france",
         "art",
-        "culture"
+        "trips"
       ],
-      "series_id": null,
-      "episode": null,
+      "series_id": "giverny-monet",
+      "episode": 5,
       "orientation": "portrait",
-      "facebook_url": ""
+      "facebook_url": "https://www.facebook.com/reel/36049970434647802"
     },
     {
       "id": "006",
       "title": {
-        "hu": "Kávé és croissant Párizsban",
-        "en": "Coffee and croissant in Paris",
-        "fr": "Café et croissant à Paris"
+        "hu": "Párizs",
+        "en": "Paris",
+        "fr": "Paris"
       },
       "description": {
-        "hu": "Próbaadat – később a valódi videó adatai kerülnek ide.",
-        "en": "Demo data – real video data will be added later.",
-        "fr": "Données de démonstration – les vraies données seront ajoutées plus tard."
-      },
-      "categories": [
-        "paris",
-        "gastronomy"
-      ],
-      "series_id": null,
-      "episode": null,
-      "orientation": "portrait",
-      "facebook_url": ""
-    },
-    {
-      "id": "007",
-      "title": {
-        "hu": "Jutka mesél",
-        "en": "Jutka tells",
-        "fr": "Jutka raconte"
-      },
-      "description": {
-        "hu": "Személyes történetek és érdekességek.",
-        "en": "Personal stories and interesting facts.",
-        "fr": "Histoires personnelles et anecdotes."
-      },
-      "categories": [
-        "jutka"
-      ],
-      "series_id": null,
-      "episode": null,
-      "orientation": "portrait",
-      "facebook_url": ""
-    },
-    {
-      "id": "008",
-      "title": {
-        "hu": "Párizsi pillanatok",
-        "en": "Paris moments",
-        "fr": "Moments parisiens"
-      },
-      "description": {
-        "hu": "Próbaadat fekvő videóhoz.",
-        "en": "Demo data for a landscape video.",
-        "fr": "Données de démonstration pour une vidéo paysage."
+        "hu": "",
+        "en": "",
+        "fr": ""
       },
       "categories": [
         "paris"
       ],
       "series_id": null,
       "episode": null,
-      "orientation": "landscape",
-      "facebook_url": ""
+      "orientation": "portrait",
+      "facebook_url": "https://www.facebook.com/reel/1502104838040821"
+    },
+    {
+      "id": "007",
+      "title": {
+        "hu": "Notre-Dame",
+        "en": "Notre-Dame",
+        "fr": "Notre-Dame"
+      },
+      "description": {
+        "hu": "",
+        "en": "",
+        "fr": ""
+      },
+      "categories": [
+        "paris",
+        "culture"
+      ],
+      "series_id": null,
+      "episode": null,
+      "orientation": "portrait",
+      "facebook_url": "https://www.facebook.com/reel/980800928251857"
+    },
+    {
+      "id": "008",
+      "title": {
+        "hu": "Moulin Rouge",
+        "en": "Moulin Rouge",
+        "fr": "Moulin Rouge"
+      },
+      "description": {
+        "hu": "",
+        "en": "",
+        "fr": ""
+      },
+      "categories": [
+        "paris",
+        "culture",
+        "art"
+      ],
+      "series_id": null,
+      "episode": null,
+      "orientation": "portrait",
+      "facebook_url": "https://www.facebook.com/reel/1031775829521381"
     }
   ]
 }
