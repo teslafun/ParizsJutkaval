@@ -1,0 +1,250 @@
+{
+  "categories": [
+    {
+      "id": "all",
+      "name": {
+        "hu": "Összes",
+        "en": "All",
+        "fr": "Toutes"
+      }
+    },
+    {
+      "id": "paris",
+      "name": {
+        "hu": "Párizs",
+        "en": "Paris",
+        "fr": "Paris"
+      }
+    },
+    {
+      "id": "france",
+      "name": {
+        "hu": "Franciaország",
+        "en": "France",
+        "fr": "France"
+      }
+    },
+    {
+      "id": "culture",
+      "name": {
+        "hu": "Kultúra & történelem",
+        "en": "Culture & history",
+        "fr": "Culture & histoire"
+      }
+    },
+    {
+      "id": "art",
+      "name": {
+        "hu": "Művészet",
+        "en": "Art",
+        "fr": "Art"
+      }
+    },
+    {
+      "id": "gastronomy",
+      "name": {
+        "hu": "Gasztronómia",
+        "en": "Gastronomy",
+        "fr": "Gastronomie"
+      }
+    },
+    {
+      "id": "trips",
+      "name": {
+        "hu": "Kirándulások",
+        "en": "Trips",
+        "fr": "Escapades"
+      }
+    },
+    {
+      "id": "jutka",
+      "name": {
+        "hu": "Jutka mesél",
+        "en": "Jutka tells",
+        "fr": "Jutka raconte"
+      }
+    }
+  ],
+  "series": [
+    {
+      "id": "giverny-monet",
+      "title": {
+        "hu": "Monet és Giverny",
+        "en": "Monet and Giverny",
+        "fr": "Monet et Giverny"
+      },
+      "episodes": 5
+    }
+  ],
+  "videos": [
+    {
+      "id": "001",
+      "title": {
+        "hu": "Monet és Giverny – 1. rész",
+        "en": "Monet and Giverny – Part 1",
+        "fr": "Monet et Giverny – Partie 1"
+      },
+      "description": {
+        "hu": "Próbaadat – a végleges szöveget később adjuk meg.",
+        "en": "Demo data – final text will be added later.",
+        "fr": "Données de démonstration – le texte final sera ajouté plus tard."
+      },
+      "categories": [
+        "france",
+        "art",
+        "trips"
+      ],
+      "series_id": "giverny-monet",
+      "episode": 1,
+      "orientation": "portrait",
+      "facebook_url": ""
+    },
+    {
+      "id": "002",
+      "title": {
+        "hu": "Monet és Giverny – 2. rész",
+        "en": "Monet and Giverny – Part 2",
+        "fr": "Monet et Giverny – Partie 2"
+      },
+      "description": {
+        "hu": "Próbaadat – a végleges szöveget később adjuk meg.",
+        "en": "Demo data – final text will be added later.",
+        "fr": "Données de démonstration – le texte final sera ajouté plus tard."
+      },
+      "categories": [
+        "france",
+        "art",
+        "trips"
+      ],
+      "series_id": "giverny-monet",
+      "episode": 2,
+      "orientation": "portrait",
+      "facebook_url": ""
+    },
+    {
+      "id": "003",
+      "title": {
+        "hu": "Eiffel-torony",
+        "en": "The Eiffel Tower",
+        "fr": "La tour Eiffel"
+      },
+      "description": {
+        "hu": "Próbaadat – később a valódi videó adatai kerülnek ide.",
+        "en": "Demo data – real video data will be added later.",
+        "fr": "Données de démonstration – les vraies données seront ajoutées plus tard."
+      },
+      "categories": [
+        "paris",
+        "culture"
+      ],
+      "series_id": null,
+      "episode": null,
+      "orientation": "portrait",
+      "facebook_url": ""
+    },
+    {
+      "id": "004",
+      "title": {
+        "hu": "Notre-Dame",
+        "en": "Notre-Dame",
+        "fr": "Notre-Dame"
+      },
+      "description": {
+        "hu": "Próbaadat – később a valódi videó adatai kerülnek ide.",
+        "en": "Demo data – real video data will be added later.",
+        "fr": "Données de démonstration – les vraies données seront ajoutées plus tard."
+      },
+      "categories": [
+        "paris",
+        "culture"
+      ],
+      "series_id": null,
+      "episode": null,
+      "orientation": "portrait",
+      "facebook_url": ""
+    },
+    {
+      "id": "005",
+      "title": {
+        "hu": "Montmartre",
+        "en": "Montmartre",
+        "fr": "Montmartre"
+      },
+      "description": {
+        "hu": "Próbaadat – később a valódi videó adatai kerülnek ide.",
+        "en": "Demo data – real video data will be added later.",
+        "fr": "Données de démonstration – les vraies données seront ajoutées plus tard."
+      },
+      "categories": [
+        "paris",
+        "art",
+        "culture"
+      ],
+      "series_id": null,
+      "episode": null,
+      "orientation": "portrait",
+      "facebook_url": ""
+    },
+    {
+      "id": "006",
+      "title": {
+        "hu": "Kávé és croissant Párizsban",
+        "en": "Coffee and croissant in Paris",
+        "fr": "Café et croissant à Paris"
+      },
+      "description": {
+        "hu": "Próbaadat – később a valódi videó adatai kerülnek ide.",
+        "en": "Demo data – real video data will be added later.",
+        "fr": "Données de démonstration – les vraies données seront ajoutées plus tard."
+      },
+      "categories": [
+        "paris",
+        "gastronomy"
+      ],
+      "series_id": null,
+      "episode": null,
+      "orientation": "portrait",
+      "facebook_url": ""
+    },
+    {
+      "id": "007",
+      "title": {
+        "hu": "Jutka mesél",
+        "en": "Jutka tells",
+        "fr": "Jutka raconte"
+      },
+      "description": {
+        "hu": "Személyes történetek és érdekességek.",
+        "en": "Personal stories and interesting facts.",
+        "fr": "Histoires personnelles et anecdotes."
+      },
+      "categories": [
+        "jutka"
+      ],
+      "series_id": null,
+      "episode": null,
+      "orientation": "portrait",
+      "facebook_url": ""
+    },
+    {
+      "id": "008",
+      "title": {
+        "hu": "Párizsi pillanatok",
+        "en": "Paris moments",
+        "fr": "Moments parisiens"
+      },
+      "description": {
+        "hu": "Próbaadat fekvő videóhoz.",
+        "en": "Demo data for a landscape video.",
+        "fr": "Données de démonstration pour une vidéo paysage."
+      },
+      "categories": [
+        "paris"
+      ],
+      "series_id": null,
+      "episode": null,
+      "orientation": "landscape",
+      "facebook_url": ""
+    }
+  ]
+}

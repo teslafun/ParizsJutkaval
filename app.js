@@ -1,68 +1,8 @@
-const translations = {
-  hu: {
-    brand:"Párizs Jutkával", nav_videos:"Videók", nav_about:"Rólunk", nav_contact:"Kapcsolat",
-    eyebrow:"ÜDVÖZLÜNK", hero_title:"Fedezd fel<br>videóinkat",
-    hero_text:"Inspiráló történetek, utazások, élmények és sok más. Nézd meg legújabb videóinkat!",
-    hero_button:"Videók megtekintése", featured:"Kiemelt videó", featured_title:"Csodálatos helyek Párizsban",
-    featured_text:"Fedezd fel velünk Párizs különleges helyeit!", latest:"Legújabb videók", all_videos:"Összes videó ›",
-    v1_title:"Párizs rejtett kincsei",v1_text:"Különleges helyek a turistákon túl.",
-    v2_title:"Egy nap Párizsban",v2_text:"Látnivalók, hangulatok és tippek.",
-    v3_title:"Montmartre történetei",v3_text:"Séta Párizs egyik legizgalmasabb negyedében.",
-    v4_title:"Párizsi gyöngyszemek",v4_text:"Kevésbé ismert, különleges helyek.",
-    v5_title:"A város másik arca",v5_text:"Párizs olyan oldalai, amelyeket érdemes felfedezni.",
-    about_title:"Rólunk",about_text:"Párizs történetei, helyei és élményei Jutka szemével.",
-    contact_title:"Kapcsolat",contact_text:"Hamarosan itt találod a kapcsolatfelvételhez szükséges információkat.",
-    footer_text:"Inspiráló történetek, utazások, élmények és sok más.",footer_nav:"Navigáció",footer_info:"Információ",
-    privacy:"Adatvédelem",terms:"Felhasználási feltételek",language:"Nyelv"
-  },
-  en: {
-    brand:"Paris with Jutka", nav_videos:"Videos", nav_about:"About", nav_contact:"Contact",
-    eyebrow:"WELCOME", hero_title:"Discover<br>our videos",
-    hero_text:"Inspiring stories, journeys, experiences and more. Explore our latest videos!",
-    hero_button:"Watch videos", featured:"Featured video", featured_title:"Amazing places in Paris",
-    featured_text:"Discover special places in Paris with us!", latest:"Latest videos", all_videos:"All videos ›",
-    v1_title:"Hidden gems of Paris",v1_text:"Special places beyond the usual tourist sights.",
-    v2_title:"A day in Paris",v2_text:"Sights, atmosphere and useful tips.",
-    v3_title:"Stories of Montmartre",v3_text:"A walk through one of Paris's most fascinating districts.",
-    v4_title:"Parisian gems",v4_text:"Less-known and truly special places.",
-    v5_title:"Another side of the city",v5_text:"Paris from a different perspective.",
-    about_title:"About us",about_text:"Stories, places and experiences from Paris through Jutka's eyes.",
-    contact_title:"Contact",contact_text:"Contact information will be available here soon.",
-    footer_text:"Inspiring stories, journeys, experiences and more.",footer_nav:"Navigation",footer_info:"Information",
-    privacy:"Privacy",terms:"Terms of use",language:"Language"
-  },
-  fr: {
-    brand:"Paris avec Jutka", nav_videos:"Vidéos", nav_about:"À propos", nav_contact:"Contact",
-    eyebrow:"BIENVENUE", hero_title:"Découvrez<br>nos vidéos",
-    hero_text:"Histoires, voyages, expériences et bien plus. Découvrez nos dernières vidéos !",
-    hero_button:"Voir les vidéos", featured:"Vidéo à la une", featured_title:"Les lieux magnifiques de Paris",
-    featured_text:"Découvrez avec nous les lieux exceptionnels de Paris !", latest:"Dernières vidéos", all_videos:"Toutes les vidéos ›",
-    v1_title:"Les trésors cachés de Paris",v1_text:"Des lieux uniques loin des circuits habituels.",
-    v2_title:"Une journée à Paris",v2_text:"Sites, ambiances et conseils.",
-    v3_title:"Histoires de Montmartre",v3_text:"Promenade dans l'un des quartiers les plus fascinants de Paris.",
-    v4_title:"Les pépites parisiennes",v4_text:"Des endroits moins connus et vraiment spéciaux.",
-    v5_title:"Un autre visage de la ville",v5_text:"Paris sous un autre angle.",
-    about_title:"À propos",about_text:"Histoires, lieux et expériences de Paris à travers les yeux de Jutka.",
-    contact_title:"Contact",contact_text:"Les informations de contact seront bientôt disponibles ici.",
-    footer_text:"Histoires, voyages, expériences et bien plus.",footer_nav:"Navigation",footer_info:"Informations",
-    privacy:"Confidentialité",terms:"Conditions d'utilisation",language:"Langue"
-  }
-};
-
-function setLanguage(lang){
-  const t=translations[lang]||translations.hu;
-  document.documentElement.lang=lang;
-  document.title=t.brand;
-  document.querySelectorAll("[data-i18n]").forEach(el=>{
-    const key=el.dataset.i18n;
-    if(t[key]!==undefined) el.innerHTML=t[key];
-  });
-  document.querySelectorAll("[data-lang]").forEach(btn=>{
-    btn.classList.toggle("active",btn.dataset.lang===lang);
-  });
-  localStorage.setItem("pj-language",lang);
-}
-document.querySelectorAll("[data-lang]").forEach(btn=>{
-  btn.addEventListener("click",()=>setLanguage(btn.dataset.lang));
-});
-setLanguage(localStorage.getItem("pj-language")||"hu");
+const SAMPLE_DATA = {"categories":[{"id":"all","name":{"hu":"Összes","en":"All","fr":"Toutes"}},{"id":"paris","name":{"hu":"Párizs","en":"Paris","fr":"Paris"}},{"id":"france","name":{"hu":"Franciaország","en":"France","fr":"France"}},{"id":"culture","name":{"hu":"Kultúra & történelem","en":"Culture & history","fr":"Culture & histoire"}},{"id":"art","name":{"hu":"Művészet","en":"Art","fr":"Art"}},{"id":"gastronomy","name":{"hu":"Gasztronómia","en":"Gastronomy","fr":"Gastronomie"}},{"id":"trips","name":{"hu":"Kirándulások","en":"Trips","fr":"Escapades"}},{"id":"jutka","name":{"hu":"Jutka mesél","en":"Jutka tells","fr":"Jutka raconte"}}],"series":[{"id":"giverny-monet","title":{"hu":"Monet és Giverny","en":"Monet and Giverny","fr":"Monet et Giverny"},"episodes":5}],"videos":[{"id":"001","title":{"hu":"Monet és Giverny – 1. rész","en":"Monet and Giverny – Part 1","fr":"Monet et Giverny – Partie 1"},"description":{"hu":"Próbaadat – a végleges szöveget később adjuk meg.","en":"Demo data – final text will be added later.","fr":"Données de démonstration – le texte final sera ajouté plus tard."},"categories":["france","art","trips"],"series_id":"giverny-monet","episode":1,"orientation":"portrait","facebook_url":""},{"id":"002","title":{"hu":"Monet és Giverny – 2. rész","en":"Monet and Giverny – Part 2","fr":"Monet et Giverny – Partie 2"},"description":{"hu":"Próbaadat – a végleges szöveget később adjuk meg.","en":"Demo data – final text will be added later.","fr":"Données de démonstration – le texte final sera ajouté plus tard."},"categories":["france","art","trips"],"series_id":"giverny-monet","episode":2,"orientation":"portrait","facebook_url":""},{"id":"003","title":{"hu":"Eiffel-torony","en":"The Eiffel Tower","fr":"La tour Eiffel"},"description":{"hu":"Próbaadat – később a valódi videó adatai kerülnek ide.","en":"Demo data – real video data will be added later.","fr":"Données de démonstration – les vraies données seront ajoutées plus tard."},"categories":["paris","culture"],"series_id":null,"episode":null,"orientation":"portrait","facebook_url":""},{"id":"004","title":{"hu":"Notre-Dame","en":"Notre-Dame","fr":"Notre-Dame"},"description":{"hu":"Próbaadat – később a valódi videó adatai kerülnek ide.","en":"Demo data – real video data will be added later.","fr":"Données de démonstration – les vraies données seront ajoutées plus tard."},"categories":["paris","culture"],"series_id":null,"episode":null,"orientation":"portrait","facebook_url":""},{"id":"005","title":{"hu":"Montmartre","en":"Montmartre","fr":"Montmartre"},"description":{"hu":"Próbaadat – később a valódi videó adatai kerülnek ide.","en":"Demo data – real video data will be added later.","fr":"Données de démonstration – les vraies données seront ajoutées plus tard."},"categories":["paris","art","culture"],"series_id":null,"episode":null,"orientation":"portrait","facebook_url":""},{"id":"006","title":{"hu":"Kávé és croissant Párizsban","en":"Coffee and croissant in Paris","fr":"Café et croissant à Paris"},"description":{"hu":"Próbaadat – később a valódi videó adatai kerülnek ide.","en":"Demo data – real video data will be added later.","fr":"Données de démonstration – les vraies données seront ajoutées plus tard."},"categories":["paris","gastronomy"],"series_id":null,"episode":null,"orientation":"portrait","facebook_url":""},{"id":"007","title":{"hu":"Jutka mesél","en":"Jutka tells","fr":"Jutka raconte"},"description":{"hu":"Személyes történetek és érdekességek.","en":"Personal stories and interesting facts.","fr":"Histoires personnelles et anecdotes."},"categories":["jutka"],"series_id":null,"episode":null,"orientation":"portrait","facebook_url":""},{"id":"008","title":{"hu":"Párizsi pillanatok","en":"Paris moments","fr":"Moments parisiens"},"description":{"hu":"Próbaadat fekvő videóhoz.","en":"Demo data for a landscape video.","fr":"Données de démonstration pour une vidéo paysage."},"categories":["paris"],"series_id":null,"episode":null,"orientation":"landscape","facebook_url":""}]};
+const state={lang:localStorage.getItem("pj-language")||"hu",category:"all",data:null};
+const ui={hu:{brand:"Párizs Jutkával",nav_videos:"Videók",nav_about:"Rólunk",nav_contact:"Kapcsolat",eyebrow:"ÜDVÖZLÜNK",hero_title:"Fedezd fel<br>videóinkat",hero_text:"Inspiráló történetek, utazások, élmények és sok más. Nézd meg legújabb videóinkat!",hero_button:"Videók megtekintése",featured:"Kiemelt videó",featured_title:"Párizsi történetek",featured_text:"A kiemelt videó helye.",latest:"Videók",about_title:"Rólunk",about_text:"Párizs történetei, helyei és élményei Jutka szemével.",contact_title:"Kapcsolat",contact_text:"Kapcsolatfelvételhez szükséges információk.",footer_text:"Inspiráló történetek, utazások, élmények és sok más.",footer_nav:"Navigáció",language:"Nyelv"},en:{brand:"Paris with Jutka",nav_videos:"Videos",nav_about:"About",nav_contact:"Contact",eyebrow:"WELCOME",hero_title:"Discover<br>our videos",hero_text:"Inspiring stories, journeys, experiences and more. Explore our latest videos!",hero_button:"Watch videos",featured:"Featured video",featured_title:"Paris stories",featured_text:"Featured video placeholder.",latest:"Videos",about_title:"About us",about_text:"Stories, places and experiences from Paris through Jutka's eyes.",contact_title:"Contact",contact_text:"Contact information.",footer_text:"Inspiring stories, journeys, experiences and more.",footer_nav:"Navigation",language:"Language"},fr:{brand:"Paris avec Jutka",nav_videos:"Vidéos",nav_about:"À propos",nav_contact:"Contact",eyebrow:"BIENVENUE",hero_title:"Découvrez<br>nos vidéos",hero_text:"Histoires, voyages, expériences et bien plus. Découvrez nos dernières vidéos !",hero_button:"Voir les vidéos",featured:"Vidéo à la une",featured_title:"Histoires de Paris",featured_text:"Emplacement de la vidéo à la une.",latest:"Vidéos",about_title:"À propos",about_text:"Histoires, lieux et expériences de Paris à travers les yeux de Jutka.",contact_title:"Contact",contact_text:"Informations de contact.",footer_text:"Histoires, voyages, expériences et bien plus.",footer_nav:"Navigation",language:"Langue"}};
+function setLanguage(lang){state.lang=lang;localStorage.setItem("pj-language",lang);document.documentElement.lang=lang;document.title=ui[lang].brand;document.querySelectorAll("[data-i18n]").forEach(e=>{const k=e.dataset.i18n;if(ui[lang][k])e.innerHTML=ui[lang][k]});document.querySelectorAll("[data-lang]").forEach(b=>b.classList.toggle("active",b.dataset.lang===lang));renderFilters();renderVideos()}
+function renderFilters(){const box=document.getElementById("filters");box.innerHTML="";state.data.categories.forEach(c=>{const b=document.createElement("button");b.className="filter"+(c.id===state.category?" active":"");b.textContent=c.name[state.lang];b.onclick=()=>{state.category=c.id;renderFilters();renderVideos()};box.appendChild(b)})}
+function renderVideos(){const row=document.getElementById("video-row");row.innerHTML="";let list=state.data.videos;if(state.category!=="all")list=list.filter(v=>v.categories.includes(state.category));list.forEach(v=>{const card=document.createElement("article");card.className="video-card demo-"+v.id+" "+(v.orientation==="landscape"?"landscape":"");const ep=v.episode?`<span class="episode">${v.episode}/${state.data.series.find(s=>s.id===v.series_id)?.episodes||"?"}</span>`:"";const series=v.series_id?`<div class="series">${state.data.series.find(s=>s.id===v.series_id)?.title[state.lang]||""}</div>`:"";card.innerHTML=`<div class="thumb">${ep}<button class="small-play">▶</button></div><div class="card-body"><h3>${v.title[state.lang]}</h3><p>${v.description[state.lang]}</p>${series}</div>`;row.appendChild(card)})}
+async function init(){try{const r=await fetch("data/videos.json");if(!r.ok)throw new Error("HTTP "+r.status);state.data=await r.json()}catch(e){state.data=SAMPLE_DATA}setLanguage(state.lang)}
+document.querySelectorAll("[data-lang]").forEach(b=>b.onclick=()=>setLanguage(b.dataset.lang));init();
