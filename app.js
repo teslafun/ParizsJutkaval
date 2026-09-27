@@ -277,6 +277,13 @@ const SAMPLE_DATA = {
 const TEST_YOUTUBE_ID = "M7lc1UVf-VE";
 
 
+const SITE_TITLES = {
+  "hu": "Barangolj Párizsban Jutkával",
+  "en": "Wander Around Paris with Jutka",
+  "fr": "Explorez Paris avec Jutka"
+};
+
+
 const state = {
   lang: localStorage.getItem("pj-language") || "hu",
   category: "all",
@@ -359,6 +366,11 @@ function setLanguage(lang) {
   localStorage.setItem("pj-language", lang);
 
   document.documentElement.lang = lang;
+
+  if (SITE_TITLES[lang]) {
+    ui[lang].brand = SITE_TITLES[lang];
+  }
+
   document.title = ui[lang].brand;
 
   document.querySelectorAll("[data-i18n]").forEach(element => {
@@ -367,6 +379,10 @@ function setLanguage(lang) {
     if (ui[lang][key]) {
       element.innerHTML = ui[lang][key];
     }
+  });
+
+  document.querySelectorAll("[data-logo-alt]").forEach(logo => {
+    logo.alt = ui[lang].brand;
   });
 
   document.querySelectorAll("[data-lang]").forEach(button => {
@@ -441,6 +457,7 @@ function createYouTubeEmbed(video) {
 
   return wrapper;
 }
+
 
 function renderVideos() {
   const row = document.getElementById("video-row");

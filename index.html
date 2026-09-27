@@ -1,25 +1,326 @@
+
 <!doctype html>
 <html lang="hu">
+
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Párizs Jutkával</title><link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Barangolj Párizsban Jutkával</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
 <header class="site-header">
-<a class="brand" href="#"><span class="brand-icon">▶</span><span data-i18n="brand">Párizs Jutkával</span></a>
-<nav class="desktop-nav"><a class="active" href="#videos" data-i18n="nav_videos">Videók</a><a href="#about" data-i18n="nav_about">Rólunk</a><a href="#contact" data-i18n="nav_contact">Kapcsolat</a></nav>
-<div class="header-actions"><div class="languages"><button data-lang="hu" class="lang active">HU</button><button data-lang="en" class="lang">EN</button><button data-lang="fr" class="lang">FR</button></div><button class="menu-button">☰</button></div>
+
+  <a class="brand" href="#">
+
+    <img
+    class="site-logo"
+    src="assets/logo.png"
+    data-logo-alt
+    alt="Barangolj Párizsban Jutkával"
+    width="70"
+    height="70"
+    style="width:48px;height:70px;min-width:70px;max-width:70px;min-height:70px;max-height:70px;"
+    >
+
+    <span data-i18n="brand">Barangolj Párizsban Jutkával</span>
+
+  </a>
+
+  <nav class="desktop-nav">
+
+    <a
+      class="active"
+      href="#videos"
+      data-i18n="nav_videos"
+    >
+      Videók
+    </a>
+
+    <a
+      href="#about"
+      data-i18n="nav_about"
+    >
+      Rólunk
+    </a>
+
+    <a
+      href="#contact"
+      data-i18n="nav_contact"
+    >
+      Kapcsolat
+    </a>
+
+  </nav>
+
+  <div class="header-actions">
+
+    <div class="languages">
+
+      <button
+        data-lang="hu"
+        class="lang active"
+      >
+        HU
+      </button>
+
+      <button
+        data-lang="en"
+        class="lang"
+      >
+        EN
+      </button>
+
+      <button
+        data-lang="fr"
+        class="lang"
+      >
+        FR
+      </button>
+
+    </div>
+
+    <button class="menu-button">
+      ☰
+    </button>
+
+  </div>
+
 </header>
+
+
 <main>
-<section class="hero"><div class="hero-copy"><p class="eyebrow" data-i18n="eyebrow">ÜDVÖZLÜNK</p><h1 data-i18n="hero_title">Fedezd fel<br>videóinkat</h1><p class="hero-text" data-i18n="hero_text">Inspiráló történetek, utazások, élmények és sok más.</p><a class="primary-button" href="#videos"><span data-i18n="hero_button">Videók megtekintése</span> ›</a></div><article class="featured-card"><div class="featured-image"><span class="badge" data-i18n="featured">Kiemelt videó</span><button class="play-button">▶</button></div><div class="featured-info"><h2 data-i18n="featured_title">Párizsi történetek</h2><p data-i18n="featured_text">A kiemelt videó helye.</p></div></article></section>
-<section class="videos-section" id="videos">
-<div class="section-heading"><h2><span></span><span data-i18n="latest">Videók</span></h2></div>
-<div id="filters" class="filters"></div>
-<div id="video-row" class="video-row"></div>
-</section>
-<section class="simple-section" id="about"><h2 data-i18n="about_title">Rólam</h2><p data-i18n="about_text">Párizs történetei, helyei és élményei Jutka szemével.</p></section>
-<section class="simple-section" id="contact"><h2 data-i18n="contact_title">Kapcsolat</h2><p data-i18n="contact_text">Kapcsolatfelvételhez szükséges információk.</p></section>
+
+  <section class="hero">
+
+    <div class="hero-copy">
+
+      <p
+        class="eyebrow"
+        data-i18n="eyebrow"
+      >
+        ÜDVÖZLÜNK
+      </p>
+
+      <h1 data-i18n="hero_title">
+        Fedezd fel<br>
+        videóinkat
+      </h1>
+
+      <p
+        class="hero-text"
+        data-i18n="hero_text"
+      >
+        Inspiráló történetek, utazások, élmények és sok más.
+      </p>
+
+      <a
+        class="primary-button"
+        href="#videos"
+      >
+        <span data-i18n="hero_button">
+          Videók megtekintése
+        </span>
+        ›
+      </a>
+
+    </div>
+
+
+    <article class="featured-card">
+
+      <div class="featured-image">
+
+        <span
+          class="badge"
+          data-i18n="featured"
+        >
+          Kiemelt videó
+        </span>
+
+        <button class="play-button">
+          ▶
+        </button>
+
+      </div>
+
+      <div class="featured-info">
+
+        <h2 data-i18n="featured_title">
+          Párizsi történetek
+        </h2>
+
+        <p data-i18n="featured_text">
+          A kiemelt videó helye.
+        </p>
+
+      </div>
+
+    </article>
+
+  </section>
+
+
+  <section
+    class="videos-section"
+    id="videos"
+  >
+
+    <div class="section-heading">
+
+      <h2>
+
+        <span></span>
+
+        <span data-i18n="latest">
+          Videók
+        </span>
+
+      </h2>
+
+    </div>
+
+
+    <div
+      id="filters"
+      class="filters"
+    ></div>
+
+
+    <div
+      id="video-row"
+      class="video-row"
+    ></div>
+
+  </section>
+
+
+  <section
+    class="simple-section"
+    id="about"
+  >
+
+    <h2 data-i18n="about_title">
+      Rólam
+    </h2>
+
+    <p data-i18n="about_text">
+      Párizs történetei, helyei és élményei Jutka szemével.
+    </p>
+
+  </section>
+
+
+  <section
+    class="simple-section"
+    id="contact"
+  >
+
+    <h2 data-i18n="contact_title">
+      Kapcsolat
+    </h2>
+
+    <p data-i18n="contact_text">
+      Kapcsolatfelvételhez szükséges információk.
+    </p>
+
+  </section>
+
 </main>
-<footer><div class="footer-brand"><div class="brand"><span class="brand-icon">▶</span><span data-i18n="brand">Párizs Jutkával</span></div><p data-i18n="footer_text">Inspiráló történetek, utazások, élmények és sok más.</p></div><div><h4 data-i18n="footer_nav">Navigáció</h4><a href="#videos" data-i18n="nav_videos">Videók</a><a href="#about" data-i18n="nav_about">Rólunk</a><a href="#contact" data-i18n="nav_contact">Kapcsolat</a></div><div><h4 data-i18n="language">Nyelv</h4><div class="footer-langs"><button data-lang="hu">HU</button><button data-lang="en">EN</button><button data-lang="fr">FR</button></div></div></footer>
+
+
+<footer>
+
+  <div class="footer-brand">
+
+    <div class="brand">
+
+        <img
+        class="site-logo"
+        src="assets/logo.png"
+        data-logo-alt
+        alt="Barangolj Párizsban Jutkával"
+        width="70"
+        height="70"
+        style="width:70px;height:70px;min-width:70px;max-width:70px;min-height:70px;max-height:70px;"
+        >
+
+      <span data-i18n="brand">
+        Barangolj Párizsban Jutkával
+      </span>
+
+    </div>
+
+    <p data-i18n="footer_text">
+      Inspiráló történetek, utazások, élmények és sok más.
+    </p>
+
+  </div>
+
+
+  <div>
+
+    <h4 data-i18n="footer_nav">
+      Navigáció
+    </h4>
+
+    <a
+      href="#videos"
+      data-i18n="nav_videos"
+    >
+      Videók
+    </a>
+
+    <a
+      href="#about"
+      data-i18n="nav_about"
+    >
+      Rólunk
+    </a>
+
+    <a
+      href="#contact"
+      data-i18n="nav_contact"
+    >
+      Kapcsolat
+    </a>
+
+  </div>
+
+
+  <div>
+
+    <h4 data-i18n="language">
+      Nyelv
+    </h4>
+
+    <div class="footer-langs">
+
+      <button data-lang="hu">
+        HU
+      </button>
+
+      <button data-lang="en">
+        EN
+      </button>
+
+      <button data-lang="fr">
+        FR
+      </button>
+
+    </div>
+
+  </div>
+
+</footer>
+
+
 <script src="app.js"></script>
-</body></html>
+
+</body>
+
+</html>
