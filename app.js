@@ -268,7 +268,7 @@ const ui = {
   hu: {
     brand: "Párizs Jutkával",
     nav_videos: "Videók",
-    nav_about: "Rólunk",
+    nav_about: "Rólam",
     nav_contact: "Kapcsolat",
     eyebrow: "ÜDVÖZLÜNK",
     hero_title: "Fedezd fel<br>videóinkat",
