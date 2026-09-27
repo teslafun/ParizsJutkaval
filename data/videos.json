@@ -96,8 +96,9 @@
       ],
       "series_id": "giverny-monet",
       "episode": 1,
-      "orientation": "portrait",
-      "facebook_url": "https://www.facebook.com/reel/2095173488099029"
+      "orientation": "landscape",
+      "facebook_url": "https://www.facebook.com/reel/2095173488099029",
+      "youtube_id": "EwLmPAW4Ux8"
     },
     {
       "id": "002",
@@ -118,8 +119,9 @@
       ],
       "series_id": "giverny-monet",
       "episode": 2,
-      "orientation": "portrait",
-      "facebook_url": "https://www.facebook.com/reel/2137249670177772"
+      "orientation": "landscape",
+      "facebook_url": "https://www.facebook.com/reel/2137249670177772",
+      "youtube_id": "3rXGdxblth4"
     },
     {
       "id": "003",
@@ -140,8 +142,9 @@
       ],
       "series_id": "giverny-monet",
       "episode": 3,
-      "orientation": "portrait",
-      "facebook_url": "https://www.facebook.com/reel/1324417502952644"
+      "orientation": "landscape",
+      "facebook_url": "https://www.facebook.com/reel/1324417502952644",
+      "youtube_id": "rVNakLfaimw"
     },
     {
       "id": "004",
@@ -162,8 +165,9 @@
       ],
       "series_id": "giverny-monet",
       "episode": 4,
-      "orientation": "portrait",
-      "facebook_url": "https://www.facebook.com/reel/1916934712340936"
+      "orientation": "landscape",
+      "facebook_url": "https://www.facebook.com/reel/1916934712340936",
+      "youtube_id": "Az9TxHtYOO8"
     },
     {
       "id": "005",
@@ -184,8 +188,9 @@
       ],
       "series_id": "giverny-monet",
       "episode": 5,
-      "orientation": "portrait",
-      "facebook_url": "https://www.facebook.com/reel/36049970434647802"
+      "orientation": "landscape",
+      "facebook_url": "https://www.facebook.com/reel/36049970434647802",
+      "youtube_id": "rjWx2WNXFF4"
     },
     {
       "id": "006",
@@ -204,8 +209,9 @@
       ],
       "series_id": null,
       "episode": null,
-      "orientation": "portrait",
-      "facebook_url": "https://www.facebook.com/reel/1502104838040821"
+      "orientation": "landscape",
+      "facebook_url": "https://www.facebook.com/reel/1502104838040821",
+      "youtube_id": "YKeIYT8ZT6k"
     },
     {
       "id": "007",
@@ -225,8 +231,9 @@
       ],
       "series_id": null,
       "episode": null,
-      "orientation": "portrait",
-      "facebook_url": "https://www.facebook.com/reel/980800928251857"
+      "orientation": "landscape",
+      "facebook_url": "https://www.facebook.com/reel/980800928251857",
+      "youtube_id": "wvtoJ7Dyj1A"
     },
     {
       "id": "008",
@@ -247,8 +254,9 @@
       ],
       "series_id": null,
       "episode": null,
-      "orientation": "portrait",
-      "facebook_url": "https://www.facebook.com/reel/1031775829521381"
+      "orientation": "landscape",
+      "facebook_url": "https://www.facebook.com/reel/1031775829521381",
+      "youtube_id": "yPg3s55IHw8"
     }
   ]
 }
