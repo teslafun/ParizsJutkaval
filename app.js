@@ -404,23 +404,18 @@ function createFacebookEmbed(video) {
   wrapper.target = "_blank";
   wrapper.rel = "noopener noreferrer";
 
+  const background = document.createElement("div");
+  background.className = "facebook-card-background";
+
   const play = document.createElement("div");
   play.className = "facebook-play";
   play.innerHTML = "▶";
 
-  const label = document.createElement("div");
-  label.className = "facebook-label";
-  label.textContent = "Facebook Reel";
-
-  wrapper.appendChild(play);
-  wrapper.appendChild(label);
+  background.appendChild(play);
+  wrapper.appendChild(background);
 
   return wrapper;
 }
-
-
-
-
 
 function renderVideos() {
   const row = document.getElementById("video-row");

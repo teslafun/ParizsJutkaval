@@ -10,32 +10,15 @@
 .video-card.demo-007 .thumb{background-image:linear-gradient(145deg,#667b9b,#c8a26b 55%,#7d6b5b)}
 .video-card.demo-008 .thumb{background-image:linear-gradient(145deg,#5b8bb4,#dfb36f 55%,#8ba6bd)}
 .facebook-card {
+  display: block;
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-
-  background:
-    radial-gradient(
-      circle at 50% 35%,
-      rgba(255,255,255,0.18),
-      transparent 35%
-    ),
-    linear-gradient(
-      145deg,
-      #1877f2,
-      #3b5998
-    );
-
-  color: white;
+  width: 100%;
   text-decoration: none;
-
+  color: inherit;
+  overflow: hidden;
   border-radius: 18px;
-
-  min-height: 430px;
-
-  cursor: pointer;
+  background: #ffffff;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
 
   transition:
     transform 0.2s ease,
@@ -43,17 +26,78 @@
 }
 
 .facebook-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 12px 28px rgba(0,0,0,0.14);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.13);
 }
 
-.facebook-card.landscape {
-  min-height: 270px;
+.facebook-card-background {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 25% 20%,
+      rgba(255, 255, 255, 0.95),
+      transparent 38%
+    ),
+    linear-gradient(
+      145deg,
+      #dce7f4,
+      #eef2f6 48%,
+      #d7e0eb
+    );
 }
 
+.facebook-card.landscape .facebook-card-background {
+  aspect-ratio: 16 / 9;
+}
+
+/* Finom háttérmotívum */
+.facebook-card-background::after {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 180px;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.18);
+
+  top: -60px;
+  right: -50px;
+
+  pointer-events: none;
+}
+
+/* Sorozat */
+.facebook-series {
+  position: absolute;
+  top: 17px;
+  left: 17px;
+
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+
+  color: #43566d;
+
+  z-index: 2;
+}
+
+/* Play gomb */
 .facebook-play {
-  width: 72px;
-  height: 72px;
+  position: relative;
+  z-index: 3;
+
+  width: 64px;
+  height: 64px;
 
   border-radius: 50%;
 
@@ -61,48 +105,59 @@
   align-items: center;
   justify-content: center;
 
-  background: rgba(255,255,255,0.95);
-  color: #1877f2;
-
-  font-size: 27px;
-
   padding-left: 4px;
 
-  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  background: rgba(255, 255, 255, 0.94);
 
-  transition: transform 0.2s ease;
+  color: #1877f2;
+
+  font-size: 22px;
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.12);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .facebook-card:hover .facebook-play {
   transform: scale(1.08);
+
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.16);
 }
 
-.facebook-label {
+/* Epizód */
+.facebook-episode {
   position: absolute;
 
-  left: 16px;
-  bottom: 16px;
+  right: 15px;
+  bottom: 14px;
 
-  padding: 7px 11px;
+  z-index: 3;
 
-  border-radius: 8px;
+  padding: 5px 9px;
 
-  background: rgba(0,0,0,0.45);
+  border-radius: 20px;
 
-  font-size: 13px;
+  background: rgba(255, 255, 255, 0.9);
+
+  color: #43566d;
+
+  font-size: 0.72rem;
   font-weight: 600;
-
-  backdrop-filter: blur(5px);
 }
 
-@media (max-width: 700px) {
+/* Cím a kártya alatt */
+.facebook-card-title {
+  padding: 13px 15px 16px;
 
-  .facebook-card {
-    min-height: 500px;
-  }
+  font-size: 0.95rem;
+  line-height: 1.35;
+  font-weight: 600;
 
-  .facebook-card.landscape {
-    min-height: 260px;
-  }
+  color: #26384d;
 
+  background: #ffffff;
 }
