@@ -5,3 +5,5 @@ __pycache__/
 ParizsJutkaval.xlsx
 generate_site.py
 templates/
+update_github.command
+update_reels.pyupdate_reels.py
