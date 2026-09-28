@@ -46,11 +46,6 @@ footer .site-logo {
 }
 
 @media (max-width:760px) {
-  .site-header {
-    height: 76px;
-    padding: 0 10px;
-  }
-
   .site-header .brand {
     min-width: 0;
     flex: 1 1 auto;
@@ -64,21 +59,47 @@ footer .site-logo {
 
   .site-header .header-actions {
     flex: 0 0 auto;
-    gap: 3px;
-    margin-left: 4px;
+    gap: 4px;
   }
 
   .site-header .languages {
     flex: 0 0 auto;
-    gap: 1px;
   }
 
   .site-header .lang {
-    padding: 7px 6px;
-  }
-
-  .site-header .menu-button {
-    flex: 0 0 auto;
-    padding: 8px;
+    padding: 7px 8px;
   }
 }
+
+/* ============================================================
+   MOBILE LANGUAGE DROPDOWN
+   ============================================================ */
+
+.mobile-language {
+  display: none;
+}
+
+@media (max-width:760px) {
+  .site-header .languages {
+    display: none;
+  }
+
+  .site-header .mobile-language {
+    display: block;
+    border: 0;
+    background: #eef3fa;
+    color: #101b35;
+    border-radius: 12px;
+    padding: 8px 9px;
+    font-weight: 650;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .site-header .header-actions {
+    margin-left: auto;
+    flex: 0 0 auto;
+    gap: 6px;
+  }
+}
+

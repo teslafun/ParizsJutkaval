@@ -392,6 +392,12 @@ function setLanguage(lang) {
     );
   });
 
+  const mobileLanguage = document.getElementById("mobile-language");
+
+  if (mobileLanguage) {
+    mobileLanguage.value = lang;
+  }
+
   renderFilters();
   renderVideos();
 }
@@ -563,5 +569,48 @@ document.querySelectorAll("[data-lang]").forEach(button => {
     setLanguage(button.dataset.lang);
 });
 
+
+function setupMobileLanguageSelector() {
+  const languages = document.querySelector(".languages");
+
+  if (!languages) {
+    return;
+  }
+
+  if (document.getElementById("mobile-language")) {
+    return;
+  }
+
+  const select = document.createElement("select");
+
+  select.id = "mobile-language";
+  select.className = "mobile-language";
+
+  const languageOptions = [
+    { code: "hu", label: "HU" },
+    { code: "en", label: "EN" },
+    { code: "fr", label: "FR" }
+  ];
+
+  languageOptions.forEach(option => {
+    const item = document.createElement("option");
+
+    item.value = option.code;
+    item.textContent = option.label;
+
+    select.appendChild(item);
+  });
+
+  select.value = state.lang;
+
+  select.onchange = () => {
+    setLanguage(select.value);
+  };
+
+  languages.appendChild(select);
+}
+
+
+setupMobileLanguageSelector();
 
 init();
