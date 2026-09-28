@@ -74,7 +74,7 @@ const SAMPLE_DATA = {
         "en": "Eiffel",
         "fr": "Eiffel"
       },
-      "episodes": 2
+      "episodes": 7
     },
     {
       "id": "Notre_Dame",
@@ -83,7 +83,7 @@ const SAMPLE_DATA = {
         "en": "Notre Dame",
         "fr": "Notre Dame"
       },
-      "episodes": 3
+      "episodes": 4
     },
     {
       "id": "monet_giverny",
@@ -102,6 +102,15 @@ const SAMPLE_DATA = {
         "fr": "Sacre Coeur"
       },
       "episodes": 2
+    },
+    {
+      "id": "Latin_Quarter",
+      "title": {
+        "hu": "Latin Quarter",
+        "en": "Latin Quarter",
+        "fr": "Latin Quarter"
+      },
+      "episodes": 1
     }
   ],
   "videos": [
@@ -280,7 +289,7 @@ const SAMPLE_DATA = {
       "episode": 1,
       "orientation": "portrait",
       "facebook_url": "https://www.facebook.com/reel/980800928251857",
-      "youtube_id": "oqojJCTlKNw",
+      "youtube_id": "OUjTu9uMAOw",
       "featured": false
     },
     {
@@ -301,9 +310,9 @@ const SAMPLE_DATA = {
       ],
       "series_id": null,
       "episode": null,
-      "orientation": "landscape",
+      "orientation": "portrait",
       "facebook_url": "https://www.facebook.com/reel/1031775829521381",
-      "youtube_id": "yPg3s55IHw8",
+      "youtube_id": "0EMw7pqb5JA",
       "featured": false
     },
     {
@@ -331,30 +340,6 @@ const SAMPLE_DATA = {
       "featured": false
     },
     {
-      "id": "009",
-      "title": {
-        "hu": "Sacre Coeur",
-        "en": "Sacre Coeur",
-        "fr": "Sacre Coeur"
-      },
-      "description": {
-        "hu": "",
-        "en": "",
-        "fr": ""
-      },
-      "categories": [
-        "paris",
-        "france",
-        "culture_history"
-      ],
-      "series_id": "Sacre_Coeur",
-      "episode": 2,
-      "orientation": "portrait",
-      "facebook_url": "",
-      "youtube_id": "",
-      "featured": false
-    },
-    {
       "id": "010",
       "title": {
         "hu": "Eiffel torony",
@@ -371,7 +356,7 @@ const SAMPLE_DATA = {
         "france"
       ],
       "series_id": "Eiffel",
-      "episode": null,
+      "episode": 3,
       "orientation": "portrait",
       "facebook_url": "",
       "youtube_id": "twQfFBBozvY",
@@ -380,9 +365,9 @@ const SAMPLE_DATA = {
     {
       "id": "011",
       "title": {
-        "hu": "Notre-Dame",
-        "en": "Notre-Dame",
-        "fr": "Notre-Dame"
+        "hu": "Megújult Notre Dame",
+        "en": "Renewed Notre-Dame",
+        "fr": "Notre-Dame rénovée"
       },
       "description": {
         "hu": "",
@@ -395,10 +380,10 @@ const SAMPLE_DATA = {
         "culture_history"
       ],
       "series_id": "Notre_Dame",
-      "episode": 2,
+      "episode": 3,
       "orientation": "portrait",
-      "facebook_url": "https://www.facebook.com/reel/980800928251857",
-      "youtube_id": "LwO2cd0G0Vc",
+      "facebook_url": "",
+      "youtube_id": "oqojJCTlKNw",
       "featured": false
     },
     {
@@ -418,18 +403,18 @@ const SAMPLE_DATA = {
         "france"
       ],
       "series_id": "Eiffel",
-      "episode": null,
+      "episode": 4,
       "orientation": "portrait",
       "facebook_url": "",
       "youtube_id": "Ze30ZbFrhnI",
       "featured": false
     },
     {
-      "id": "012",
+      "id": "013",
       "title": {
-        "hu": "Notre-Dame",
-        "en": "Notre-Dame",
-        "fr": "Notre-Dame"
+        "hu": "Notre Dame",
+        "en": "Notre Dame",
+        "fr": "Notre Dame"
       },
       "description": {
         "hu": "",
@@ -442,10 +427,313 @@ const SAMPLE_DATA = {
         "culture_history"
       ],
       "series_id": "Notre_Dame",
-      "episode": 3,
+      "episode": 4,
       "orientation": "portrait",
       "facebook_url": "",
-      "youtube_id": "MHLInXHke2Y",
+      "youtube_id": "zlD2LkkFeds",
+      "featured": false
+    },
+    {
+      "id": "014",
+      "title": {
+        "hu": "Sacre Coeur belülről",
+        "en": "Sacré-Cœur from the inside",
+        "fr": "Sacré-Cœur vu de l'intérieur"
+      },
+      "description": {
+        "hu": "",
+        "en": "",
+        "fr": ""
+      },
+      "categories": [
+        "paris",
+        "france",
+        "culture_history"
+      ],
+      "series_id": "Sacre_Coeur",
+      "episode": 2,
+      "orientation": "portrait",
+      "facebook_url": "",
+      "youtube_id": "mzIebp5ZgUQ",
+      "featured": false
+    },
+    {
+      "id": "015",
+      "title": {
+        "hu": "Pantheon",
+        "en": "Pantheon",
+        "fr": "Pantheon"
+      },
+      "description": {
+        "hu": "",
+        "en": "",
+        "fr": ""
+      },
+      "categories": [
+        "paris",
+        "france",
+        "culture_history"
+      ],
+      "series_id": null,
+      "episode": null,
+      "orientation": "portrait",
+      "facebook_url": "",
+      "youtube_id": "AzjI9N-yYqM",
+      "featured": false
+    },
+    {
+      "id": "016",
+      "title": {
+        "hu": "Luxemburg kert",
+        "en": "Luxemburg garden",
+        "fr": "Jardin du Luxembourg"
+      },
+      "description": {
+        "hu": "",
+        "en": "",
+        "fr": ""
+      },
+      "categories": [
+        "paris",
+        "france",
+        "culture_history"
+      ],
+      "series_id": null,
+      "episode": null,
+      "orientation": "portrait",
+      "facebook_url": "",
+      "youtube_id": "1tbHCQp2y5g",
+      "featured": false
+    },
+    {
+      "id": "017",
+      "title": {
+        "hu": "Latin negyed",
+        "en": "Latin Quarter",
+        "fr": "Quartier latin"
+      },
+      "description": {
+        "hu": "",
+        "en": "",
+        "fr": ""
+      },
+      "categories": [
+        "paris",
+        "france"
+      ],
+      "series_id": "Latin_Quarter",
+      "episode": 4,
+      "orientation": "portrait",
+      "facebook_url": "",
+      "youtube_id": "3JzzGy5VpGQ",
+      "featured": false
+    },
+    {
+      "id": "018",
+      "title": {
+        "hu": "Eiffel torony",
+        "en": "Eiffel Tower",
+        "fr": "Tour Eiffel"
+      },
+      "description": {
+        "hu": "",
+        "en": "",
+        "fr": ""
+      },
+      "categories": [
+        "paris",
+        "france"
+      ],
+      "series_id": "Eiffel",
+      "episode": 1,
+      "orientation": "portrait",
+      "facebook_url": "",
+      "youtube_id": "gJTnMoEy4-U",
+      "featured": false
+    },
+    {
+      "id": "019",
+      "title": {
+        "hu": "Eiffel torony",
+        "en": "Eiffel Tower",
+        "fr": "Tour Eiffel"
+      },
+      "description": {
+        "hu": "",
+        "en": "",
+        "fr": ""
+      },
+      "categories": [
+        "paris",
+        "france"
+      ],
+      "series_id": "Eiffel",
+      "episode": 2,
+      "orientation": "portrait",
+      "facebook_url": "",
+      "youtube_id": "twQfFBBozvY",
+      "featured": false
+    },
+    {
+      "id": "020",
+      "title": {
+        "hu": "Notre Dame",
+        "en": "Notre Dame",
+        "fr": "Notre Dame"
+      },
+      "description": {
+        "hu": "",
+        "en": "",
+        "fr": ""
+      },
+      "categories": [
+        "paris",
+        "france",
+        "culture_history"
+      ],
+      "series_id": "Notre_Dame",
+      "episode": 2,
+      "orientation": "portrait",
+      "facebook_url": "",
+      "youtube_id": "LwO2cd0G0Vc",
+      "featured": false
+    },
+    {
+      "id": "021",
+      "title": {
+        "hu": "Eiffel torony",
+        "en": "Eiffel Tower",
+        "fr": "Tour Eiffel"
+      },
+      "description": {
+        "hu": "Lélegzetelállító volt az idei tűzijáték az Eiffel-toronynál!",
+        "en": "",
+        "fr": ""
+      },
+      "categories": [
+        "paris",
+        "france"
+      ],
+      "series_id": "Eiffel",
+      "episode": 5,
+      "orientation": "portrait",
+      "facebook_url": "",
+      "youtube_id": "d2Dcu4DdUI0",
+      "featured": false
+    },
+    {
+      "id": "022",
+      "title": {
+        "hu": "Eiffel torony",
+        "en": "Eiffel Tower",
+        "fr": "Tour Eiffel"
+      },
+      "description": {
+        "hu": "",
+        "en": "",
+        "fr": ""
+      },
+      "categories": [
+        "paris",
+        "france"
+      ],
+      "series_id": "Eiffel",
+      "episode": 6,
+      "orientation": "portrait",
+      "facebook_url": "",
+      "youtube_id": "rgc_u6YbCKI",
+      "featured": false
+    },
+    {
+      "id": "023",
+      "title": {
+        "hu": "Párizs első királyi palotája",
+        "en": "Conciergerie",
+        "fr": "Conciergerie"
+      },
+      "description": {
+        "hu": "A Conciergerie – Párizs első királyi palotája | Marie Antoinette börtöne",
+        "en": "",
+        "fr": ""
+      },
+      "categories": [
+        "paris",
+        "france"
+      ],
+      "series_id": null,
+      "episode": null,
+      "orientation": "portrait",
+      "facebook_url": "",
+      "youtube_id": "NCi0d3q7ZdQ",
+      "featured": false
+    },
+    {
+      "id": "024",
+      "title": {
+        "hu": "Párizs legszebb hídjai",
+        "en": "Paris most beautiful bridges",
+        "fr": "Les plus beaux ponts de Paris"
+      },
+      "description": {
+        "hu": "",
+        "en": "",
+        "fr": ""
+      },
+      "categories": [
+        "paris",
+        "france"
+      ],
+      "series_id": null,
+      "episode": null,
+      "orientation": "portrait",
+      "facebook_url": "",
+      "youtube_id": "f0SXnMVQo-s",
+      "featured": false
+    },
+    {
+      "id": "025",
+      "title": {
+        "hu": "Eiffel torony",
+        "en": "Eiffel Tower",
+        "fr": "Tour Eiffel"
+      },
+      "description": {
+        "hu": "",
+        "en": "",
+        "fr": ""
+      },
+      "categories": [
+        "paris",
+        "france"
+      ],
+      "series_id": "Eiffel",
+      "episode": 7,
+      "orientation": "portrait",
+      "facebook_url": "",
+      "youtube_id": "SwEwtPmH8FQ",
+      "featured": false
+    },
+    {
+      "id": "026",
+      "title": {
+        "hu": "Reggeli a párizsi festők terén",
+        "en": "Breakfast in Montmartre",
+        "fr": "Petit dejeuner a Montmartre"
+      },
+      "description": {
+        "hu": "",
+        "en": "",
+        "fr": ""
+      },
+      "categories": [
+        "paris",
+        "france"
+      ],
+      "series_id": null,
+      "episode": null,
+      "orientation": "portrait",
+      "facebook_url": "",
+      "youtube_id": "YtPrvuKAL7c",
       "featured": false
     }
   ]
