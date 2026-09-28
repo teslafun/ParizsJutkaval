@@ -101,7 +101,8 @@ const SAMPLE_DATA = {
       "episode": 1,
       "orientation": "landscape",
       "facebook_url": "https://www.facebook.com/reel/2095173488099029",
-      "youtube_id": "EBEFYElmflM"
+      "youtube_id": "EBEFYElmflM",
+      "featured": false
     },
     {
       "id": "002",
@@ -126,7 +127,8 @@ const SAMPLE_DATA = {
       "episode": 2,
       "orientation": "landscape",
       "facebook_url": "https://www.facebook.com/reel/2137249670177772",
-      "youtube_id": "3rXGdxblth4"
+      "youtube_id": "3rXGdxblth4",
+      "featured": false
     },
     {
       "id": "003",
@@ -151,7 +153,8 @@ const SAMPLE_DATA = {
       "episode": 3,
       "orientation": "landscape",
       "facebook_url": "https://www.facebook.com/reel/1324417502952644",
-      "youtube_id": "wxEMsOFPxNc"
+      "youtube_id": "wxEMsOFPxNc",
+      "featured": false
     },
     {
       "id": "004",
@@ -176,7 +179,8 @@ const SAMPLE_DATA = {
       "episode": 4,
       "orientation": "landscape",
       "facebook_url": "https://www.facebook.com/reel/1916934712340936",
-      "youtube_id": "tksZDA1p2t8"
+      "youtube_id": "tksZDA1p2t8",
+      "featured": false
     },
     {
       "id": "005",
@@ -201,7 +205,8 @@ const SAMPLE_DATA = {
       "episode": 5,
       "orientation": "portrait",
       "facebook_url": "https://www.facebook.com/reel/36049970434647802",
-      "youtube_id": "K5joBWKZ8ho"
+      "youtube_id": "K5joBWKZ8ho",
+      "featured": false
     },
     {
       "id": "006",
@@ -222,7 +227,8 @@ const SAMPLE_DATA = {
       "episode": null,
       "orientation": "landscape",
       "facebook_url": "https://www.facebook.com/reel/1502104838040821",
-      "youtube_id": "x7I2OX-JCYk"
+      "youtube_id": "mN7te0K-jPs",
+      "featured": true
     },
     {
       "id": "007",
@@ -245,7 +251,8 @@ const SAMPLE_DATA = {
       "episode": null,
       "orientation": "landscape",
       "facebook_url": "https://www.facebook.com/reel/980800928251857",
-      "youtube_id": "bopzoe2HUPU"
+      "youtube_id": "bopzoe2HUPU",
+      "featured": false
     },
     {
       "id": "008",
@@ -267,7 +274,8 @@ const SAMPLE_DATA = {
       "episode": null,
       "orientation": "landscape",
       "facebook_url": "https://www.facebook.com/reel/1031775829521381",
-      "youtube_id": "yPg3s55IHw8"
+      "youtube_id": "yPg3s55IHw8",
+      "featured": false
     }
   ]
 };
