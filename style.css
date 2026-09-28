@@ -81,6 +81,12 @@ footer .site-logo {
 
 @media (max-width:760px) {
   .site-header .languages {
+    display: flex;
+    flex: 0 0 auto;
+    gap: 3px;
+  }
+
+  .site-header .languages > .lang {
     display: none;
   }
 
