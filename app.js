@@ -211,9 +211,9 @@ const SAMPLE_DATA = {
     {
       "id": "006",
       "title": {
-        "hu": "Párizs",
-        "en": "Paris",
-        "fr": "Paris"
+        "hu": "Párizs felfedezése",
+        "en": "Discovering Paris",
+        "fr": "Découvrir Paris"
       },
       "description": {
         "hu": "",
@@ -221,11 +221,13 @@ const SAMPLE_DATA = {
         "fr": ""
       },
       "categories": [
-        "paris"
+        "paris",
+        "france",
+        "culture_history"
       ],
       "series_id": null,
       "episode": null,
-      "orientation": "landscape",
+      "orientation": "portrait",
       "facebook_url": "https://www.facebook.com/reel/1502104838040821",
       "youtube_id": "mN7te0K-jPs",
       "featured": true
@@ -275,6 +277,30 @@ const SAMPLE_DATA = {
       "orientation": "landscape",
       "facebook_url": "https://www.facebook.com/reel/1031775829521381",
       "youtube_id": "yPg3s55IHw8",
+      "featured": false
+    },
+    {
+      "id": "009",
+      "title": {
+        "hu": "Sacre Coeur",
+        "en": "Sacre Coeur",
+        "fr": "Sacre Coeur"
+      },
+      "description": {
+        "hu": "",
+        "en": "",
+        "fr": ""
+      },
+      "categories": [
+        "paris",
+        "france",
+        "culture_history"
+      ],
+      "series_id": null,
+      "episode": null,
+      "orientation": "portrait",
+      "facebook_url": "",
+      "youtube_id": "IasMEVlDHWI",
       "featured": false
     }
   ]
