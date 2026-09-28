@@ -1,5 +1,24 @@
 
 const SAMPLE_DATA = {
+  "settings": {
+    "default_language": "hu",
+    "youtube_test_id": "M7lc1UVf-VE",
+    "site_title_hu": "Barangolj Jutkával Párizsban",
+    "site_title_en": "Wander Around Paris with Jutka",
+    "site_title_fr": "Explorez Paris avec Jutka",
+    "hero_eyebrow_hu": "ÜDVÖZLÜNK",
+    "hero_eyebrow_en": "WELCOME",
+    "hero_eyebrow_fr": "BIENVENUE",
+    "hero_title_hu": "Fedezd fel",
+    "hero_title_en": "Discover",
+    "hero_title_fr": "Découvrez",
+    "hero_text_hu": "Inspiráló történetek, utazások, élmények és sok más. Nézd meg legújabb videóinkat!",
+    "hero_text_en": "Inspiring stories, journeys, experiences and much more. Discover our latest videos!",
+    "hero_text_fr": "Histoires inspirantes, voyages, expériences et bien plus encore. Découvrez nos dernières vidéos !",
+    "hero_button_hu": "Videók megtekintése",
+    "hero_button_en": "Watch videos",
+    "hero_button_fr": "Voir les vidéos"
+  },
   "categories": [
     {
       "id": "all",
@@ -828,6 +847,30 @@ const ui = {
 
 
 function setLanguage(lang) {
+
+  const settings = SAMPLE_DATA.settings || {};
+
+  const heroEyebrow = document.querySelector(".eyebrow");
+  const heroTitle = document.querySelector(".hero h1");
+  const heroText = document.querySelector(".hero-text");
+  const heroButton = document.querySelector(".primary-button span");
+
+  if (heroEyebrow) {
+    heroEyebrow.innerHTML = settings[`hero_eyebrow_${lang}`] || "";
+  }
+
+  if (heroTitle) {
+    heroTitle.innerHTML = settings[`hero_title_${lang}`] || "";
+  }
+
+  if (heroText) {
+    heroText.innerHTML = settings[`hero_text_${lang}`] || "";
+  }
+
+  if (heroButton) {
+    heroButton.innerHTML = settings[`hero_button_${lang}`] || "";
+  }
+
   state.lang = lang;
 
   localStorage.setItem("pj-language", lang);
