@@ -115,3 +115,20 @@ footer .site-logo {
   }
 }
 
+@media (max-width:760px) {
+  .site-header .brand {
+    white-space: normal;
+    line-height: 1.05;
+  }
+
+  .site-header .brand > span {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+  }
+}
+
