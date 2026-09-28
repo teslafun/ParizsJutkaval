@@ -83,7 +83,7 @@ const SAMPLE_DATA = {
         "en": "Notre Dame",
         "fr": "Notre Dame"
       },
-      "episodes": 2
+      "episodes": 3
     },
     {
       "id": "monet_giverny",
@@ -93,6 +93,15 @@ const SAMPLE_DATA = {
         "fr": "Monet et Giverny"
       },
       "episodes": 5
+    },
+    {
+      "id": "Sacre_Coeur",
+      "title": {
+        "hu": "Sacre Coeur",
+        "en": "Sacre Coeur",
+        "fr": "Sacre Coeur"
+      },
+      "episodes": 2
     }
   ],
   "videos": [
@@ -117,9 +126,9 @@ const SAMPLE_DATA = {
       ],
       "series_id": "monet_giverny",
       "episode": 1,
-      "orientation": "landscape",
+      "orientation": "portrait",
       "facebook_url": "https://www.facebook.com/reel/2095173488099029",
-      "youtube_id": "EBEFYElmflM",
+      "youtube_id": "BRachhYfZxs",
       "featured": false
     },
     {
@@ -143,9 +152,9 @@ const SAMPLE_DATA = {
       ],
       "series_id": "monet_giverny",
       "episode": 2,
-      "orientation": "landscape",
+      "orientation": "portrait",
       "facebook_url": "https://www.facebook.com/reel/2137249670177772",
-      "youtube_id": "3rXGdxblth4",
+      "youtube_id": "PWo-NRIk1OQ",
       "featured": false
     },
     {
@@ -169,9 +178,9 @@ const SAMPLE_DATA = {
       ],
       "series_id": "monet_giverny",
       "episode": 3,
-      "orientation": "landscape",
+      "orientation": "portrait",
       "facebook_url": "https://www.facebook.com/reel/1324417502952644",
-      "youtube_id": "wxEMsOFPxNc",
+      "youtube_id": "ZDb22VxpvuY",
       "featured": false
     },
     {
@@ -195,9 +204,9 @@ const SAMPLE_DATA = {
       ],
       "series_id": "monet_giverny",
       "episode": 4,
-      "orientation": "landscape",
+      "orientation": "portrait",
       "facebook_url": "https://www.facebook.com/reel/1916934712340936",
-      "youtube_id": "tksZDA1p2t8",
+      "youtube_id": "9ghW0oDjR_s",
       "featured": false
     },
     {
@@ -223,7 +232,7 @@ const SAMPLE_DATA = {
       "episode": 5,
       "orientation": "portrait",
       "facebook_url": "https://www.facebook.com/reel/36049970434647802",
-      "youtube_id": "K5joBWKZ8ho",
+      "youtube_id": "GSm7ZIv6IWA",
       "featured": false
     },
     {
@@ -314,11 +323,35 @@ const SAMPLE_DATA = {
         "france",
         "culture_history"
       ],
-      "series_id": null,
-      "episode": null,
+      "series_id": "Sacre_Coeur",
+      "episode": 1,
       "orientation": "portrait",
       "facebook_url": "",
       "youtube_id": "IasMEVlDHWI",
+      "featured": false
+    },
+    {
+      "id": "009",
+      "title": {
+        "hu": "Sacre Coeur",
+        "en": "Sacre Coeur",
+        "fr": "Sacre Coeur"
+      },
+      "description": {
+        "hu": "",
+        "en": "",
+        "fr": ""
+      },
+      "categories": [
+        "paris",
+        "france",
+        "culture_history"
+      ],
+      "series_id": "Sacre_Coeur",
+      "episode": 2,
+      "orientation": "portrait",
+      "facebook_url": "",
+      "youtube_id": "",
       "featured": false
     },
     {
@@ -389,6 +422,30 @@ const SAMPLE_DATA = {
       "orientation": "portrait",
       "facebook_url": "",
       "youtube_id": "Ze30ZbFrhnI",
+      "featured": false
+    },
+    {
+      "id": "012",
+      "title": {
+        "hu": "Notre-Dame",
+        "en": "Notre-Dame",
+        "fr": "Notre-Dame"
+      },
+      "description": {
+        "hu": "",
+        "en": "",
+        "fr": ""
+      },
+      "categories": [
+        "paris",
+        "france",
+        "culture_history"
+      ],
+      "series_id": "Notre_Dame",
+      "episode": 3,
+      "orientation": "portrait",
+      "facebook_url": "",
+      "youtube_id": "MHLInXHke2Y",
       "featured": false
     }
   ]
