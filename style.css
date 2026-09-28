@@ -109,3 +109,9 @@ footer .site-logo {
   }
 }
 
+@media (max-width:760px) {
+  .site-header .menu-button {
+    display: none;
+  }
+}
+
