@@ -967,7 +967,7 @@ function renderVideos() {
 
   const episode =
   video.episode && series
-    ? `<span class="episode">${video.episode}/${series.episodes}</span>`
+    ? `${video.episode} / ${series.episodes}. rész`
     : "";
 
     const seriesTitle =
@@ -983,7 +983,10 @@ function renderVideos() {
 
     body.innerHTML = `
       ${seriesTitle
-        ? `<div class="series">${seriesTitle}</div>`
+      ? `<div class="series">
+       <span>${seriesTitle}</span>
+       ${episode ? `<span>${episode}</span>` : ""}
+        </div>`
         : ""
       }
 
@@ -995,13 +998,6 @@ function renderVideos() {
           : ""
       }
     `;
-
-    if (episode) {
-      embed.insertAdjacentHTML(
-        "afterbegin",
-        episode
-      );
-    }
 
     card.appendChild(embed);
     card.appendChild(body);

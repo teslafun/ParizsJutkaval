@@ -152,3 +152,14 @@ footer .site-logo {
   display: block;
 }
 
+.video-card .series {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  font-weight: 600;
+  color: #1769ff;
+  margin-bottom: 8px;
+}
