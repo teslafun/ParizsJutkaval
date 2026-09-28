@@ -312,7 +312,7 @@ const TEST_YOUTUBE_ID = "M7lc1UVf-VE";
 
 
 const SITE_TITLES = {
-  "hu": "Barangolj Párizsban Jutkával",
+  "hu": "Barangolj Jutkával Párizsban",
   "en": "Wander Around Paris with Jutka",
   "fr": "Explorez Paris avec Jutka"
 };
