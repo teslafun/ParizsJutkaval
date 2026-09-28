@@ -674,6 +674,9 @@ function renderFeaturedVideo() {
     video => video.featured === true
   );
 
+  console.log("FEATURED VIDEO:", video);
+  console.log("FEATURED YOUTUBE ID:", video.youtube_id);
+
   if (!video) {
     return;
   }
