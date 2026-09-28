@@ -67,6 +67,24 @@
   ],
   "series": [
     {
+      "id": "Eiffel",
+      "title": {
+        "hu": "Eiffel",
+        "en": "Eiffel",
+        "fr": "Eiffel"
+      },
+      "episodes": 2
+    },
+    {
+      "id": "Notre_Dame",
+      "title": {
+        "hu": "Notre Dame",
+        "en": "Notre Dame",
+        "fr": "Notre Dame"
+      },
+      "episodes": 2
+    },
+    {
       "id": "monet_giverny",
       "title": {
         "hu": "Monet és Giverny",
@@ -234,9 +252,9 @@
     {
       "id": "007",
       "title": {
-        "hu": "Notre-Dame",
-        "en": "Notre-Dame",
-        "fr": "Notre-Dame"
+        "hu": "Notre Dame",
+        "en": "Notre Dame",
+        "fr": "Notre Dame"
       },
       "description": {
         "hu": "",
@@ -248,11 +266,11 @@
         "france",
         "culture_history"
       ],
-      "series_id": null,
-      "episode": null,
-      "orientation": "landscape",
+      "series_id": "Notre_Dame",
+      "episode": 1,
+      "orientation": "portrait",
       "facebook_url": "https://www.facebook.com/reel/980800928251857",
-      "youtube_id": "bopzoe2HUPU",
+      "youtube_id": "oqojJCTlKNw",
       "featured": false
     },
     {
@@ -300,6 +318,76 @@
       "orientation": "portrait",
       "facebook_url": "",
       "youtube_id": "IasMEVlDHWI",
+      "featured": false
+    },
+    {
+      "id": "010",
+      "title": {
+        "hu": "Eiffel torony",
+        "en": "Eiffel Tower",
+        "fr": "Tour Eiffel"
+      },
+      "description": {
+        "hu": "",
+        "en": "",
+        "fr": ""
+      },
+      "categories": [
+        "paris",
+        "france"
+      ],
+      "series_id": "Eiffel",
+      "episode": null,
+      "orientation": "portrait",
+      "facebook_url": "",
+      "youtube_id": "twQfFBBozvY",
+      "featured": false
+    },
+    {
+      "id": "011",
+      "title": {
+        "hu": "Notre-Dame",
+        "en": "Notre-Dame",
+        "fr": "Notre-Dame"
+      },
+      "description": {
+        "hu": "",
+        "en": "",
+        "fr": ""
+      },
+      "categories": [
+        "paris",
+        "france",
+        "culture_history"
+      ],
+      "series_id": "Notre_Dame",
+      "episode": 2,
+      "orientation": "portrait",
+      "facebook_url": "https://www.facebook.com/reel/980800928251857",
+      "youtube_id": "LwO2cd0G0Vc",
+      "featured": false
+    },
+    {
+      "id": "012",
+      "title": {
+        "hu": "Eiffel torony tetején",
+        "en": "Top of the Eiffel Tower",
+        "fr": "Sommet de la tour Eiffel"
+      },
+      "description": {
+        "hu": "",
+        "en": "",
+        "fr": ""
+      },
+      "categories": [
+        "paris",
+        "france"
+      ],
+      "series_id": "Eiffel",
+      "episode": null,
+      "orientation": "portrait",
+      "facebook_url": "",
+      "youtube_id": "Ze30ZbFrhnI",
       "featured": false
     }
   ]
