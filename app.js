@@ -548,6 +548,60 @@ function renderVideos() {
   });
 }
 
+function renderFeaturedVideo() {
+  const card = document.getElementById("featured-card");
+
+  if (!card || !state.data || !state.data.videos) {
+    return;
+  }
+
+  const video = state.data.videos.find(
+    video => video.featured === true
+  );
+
+  if (!video) {
+    return;
+  }
+
+  const title =
+    video.title[state.lang] ||
+    video.title.hu ||
+    "";
+
+  const description =
+    video.description[state.lang] ||
+    video.description.hu ||
+    "";
+
+  const embed = createYouTubeEmbed(video);
+
+  card.innerHTML = "";
+
+  const image = document.createElement("div");
+  image.className = "featured-image";
+
+  const badge = document.createElement("span");
+  badge.className = "badge";
+  badge.textContent = ui[state.lang].featured;
+
+  image.appendChild(badge);
+  image.appendChild(embed);
+
+  const info = document.createElement("div");
+  info.className = "featured-info";
+
+  const heading = document.createElement("h2");
+  heading.textContent = title;
+
+  const text = document.createElement("p");
+  text.textContent = description;
+
+  info.appendChild(heading);
+  info.appendChild(text);
+
+  card.appendChild(image);
+  card.appendChild(info);
+}
 
 async function init() {
   try {
@@ -569,6 +623,7 @@ async function init() {
   }
 
   setLanguage(state.lang);
+  renderFeaturedVideo();
 }
 
 
