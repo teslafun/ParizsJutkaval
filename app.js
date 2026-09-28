@@ -549,10 +549,7 @@ function renderVideos() {
 }
 
 function renderFeaturedVideo() {
-  console.log(
-    "FEATURED RENDER",
-    state.data.videos.find(v => v.featured === true)
-  );
+
   const card = document.getElementById("featured-card");
 
   if (!card || !state.data || !state.data.videos) {
